@@ -117,7 +117,7 @@ define( 'WP_DEBUG', true );
 
 
 define( 'SCRIPT_DEBUG', true );
-define( 'WP_DEBUG_LOG', '/var/www/vhosts/prelive.forschen-fuer-gesundheit.de/httpdocs/wp-content/uploads/debug-log-manager/preliveforschenfuergesundheitde_202303130906_debug.log' );
+define( 'WP_DEBUG_LOG', 'preliveforschenfuergesundheitde_202303130906_debug.log' );
 define( 'WP_DEBUG_DISPLAY', true );
 define( 'DISALLOW_FILE_EDIT', false );
 /* That's all, stop editing! Happy publishing. */

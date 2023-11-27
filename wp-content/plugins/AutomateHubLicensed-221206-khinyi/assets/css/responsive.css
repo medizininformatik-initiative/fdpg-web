@@ -1,0 +1,864 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1600px to higher resolution desktops
+*/
+
+@media (min-width: 1600px) and (max-width: 1890px) {
+	.wrap-draggable-form {
+		width: 98%;
+		margin: 0 auto;
+	}
+
+	/* .table-form-left{
+	width:40%;
+}
+.table-form-right{
+	width:57%;
+} */
+	.form-plugin label,
+	.form-select label,
+	.form-platform label,
+	.form-task label {
+		width: 160px;
+	}
+
+	/* .sperse_reverse_draggable {
+	width:40%;
+	float:left;
+} */
+	/* .form_placeholder_wrap {
+	width:57%;
+	float:left;
+} */
+	.select-option-account {
+		text-align: left;
+	}
+
+	/* .select-option-account span{
+	display:none;
+	} */
+	span.label-select label {
+		margin: 13px 20px 20px 0;
+	}
+
+	.form-description-text {
+		padding: 0 !important;
+	}
+
+	span.label-select label {
+		display: block;
+		width: 100%;
+	}
+
+	.global-two-form {
+		width: 100%;
+	}
+
+	.sperse-account-option {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	.form_fields ul li span.fx-dragdrop-handle {
+		width: 230px;
+	}
+
+	li.form_fields_name span,
+	li.form_fields_db_name span {
+		/*   width:230px; */
+	}
+
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1285px to higher resolution desktops
+*/
+
+@media (min-width: 1285px) and (max-width: 1595px) {
+	.wrap-draggable-form {
+		width: 98%;
+		margin: 0 auto;
+	}
+
+	/* .table-form-left{
+	width:40%;
+}
+.table-form-right{
+	width:53%;
+} */
+	.form-plugin label,
+	.form-select label,
+	.form-platform label,
+	.form-task label {
+		width: 140px;
+	}
+
+	li.form_fields_name span,
+	li.form_fields_db_name span {
+		border-radius: 4px !important;
+		/*   width:170px!important; */
+	}
+
+	/* .sperse_reverse_draggable {
+	width:40%;
+	float:left;
+} */
+	/* .form_placeholder_wrap {
+	width:56%;
+	float:left;
+} */
+	.select-option-account {
+		text-align: left;
+	}
+
+	/*.select-option-account span{
+	display:none;
+	}*/
+	span.label-select label {
+		margin: 13px 20px 20px 0;
+	}
+
+	.form-description-text {
+		padding: 0 !important;
+	}
+
+	span.label-select label {
+		display: block;
+		width: 100%;
+	}
+
+	.global-two-form {
+		width: 100%;
+	}
+
+	.sperse-account-option {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	.logo-top {
+		margin: 0 0 0 0;
+	}
+
+	.menu-top-wrap {
+		margin-bottom: 20px;
+		clear: both !important;
+		width: 100% !important;
+		float: left !important;
+		text-align: left !important;
+		display: block;
+	}
+
+	.menu-top-wrap ul li {
+		padding: 2px 20px 2px 0;
+
+	}
+
+	.wrap-draggable-form {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.table-form-left,
+	.table-form-right {
+		width: 100%;
+	}
+
+	select#ProviderForms,
+	select#PlatformList,
+	select#form_default,
+	select#ActionTaskList {
+		width: 80% !important;
+
+	}
+
+	.sperse_reverse_draggable {
+		width: 100%;
+	}
+
+	.form_placeholder_wrap {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
+	li.form_fields_name span,
+	li.form_fields_db_name span {
+		border-radius: 4px !important;
+		/*   width:220px!important; */
+	}
+
+	.form-fields-table td:first-child {
+		width: 170px !important;
+		margin-bottom: 10px;
+	}
+
+	.menu-top-wrap {
+		width: 100%;
+		float: left;
+		display: block;
+	}
+
+	.menu-top-wrap ul li {
+		float: left;
+	}
+
+	.integration-name h3 {
+		width: 100%;
+		float: none !important;
+
+	}
+
+	input.integration-text {
+		width: 100%;
+		float: none !important;
+	}
+
+	.form_field_dropable {
+		border: 1px dashed #a7c87f;
+		border-left: 1px dashed #a7c87f;
+		border-radius: 4px;
+	}
+
+	.dynamic-platform-logo {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.dynamic-platform-logo img {
+		margin-right: 20px;
+	}
+
+	.dynamic-platform-logo span {
+		font-size: 16px;
+		margin: 0 0 20px 20px;
+		display: block;
+	}
+
+	.select-option-account {
+		text-align: left;
+	}
+
+	/* .select-option-account span{
+	display:none;
+	} */
+	.label-title {
+		width: 100%;
+		display: block;
+	}
+
+	span.label-select label {
+		margin-left: 0;
+	}
+
+	.form-description-text {
+		padding: 0 !important;
+	}
+
+	.global-two-form {
+		width: 30%;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.logo-top {
+		margin: 0 0 0 0;
+	}
+
+	.menu-top-wrap {
+		margin-bottom: 20px;
+		clear: both !important;
+		width: 100% !important;
+		float: left !important;
+		text-align: left !important;
+		display: block;
+	}
+
+	.menu-top-wrap ul li {
+		padding: 2px 20px 2px 0;
+
+	}
+
+	.wrap-draggable-form {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.table-form-left,
+	.table-form-right {
+		width: 100%;
+	}
+
+	select#ProviderForms,
+	select#PlatformList,
+	select#form_default,
+	select#ActionTaskList {
+		width: 80% !important;
+
+	}
+
+	.sperse_reverse_draggable {
+		width: 100%;
+	}
+
+	.form_placeholder_wrap {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
+	li.form_fields_name span,
+	li.form_fields_db_name span {
+		border-radius: 4px !important;
+		/*   width:220px!important; */
+	}
+
+	.form-fields-table td:first-child {
+		width: 170px !important;
+		margin-bottom: 10px;
+	}
+
+	.integration-name h3 {
+		width: 100%;
+		float: none !important;
+
+	}
+
+	input.integration-text {
+		width: 100%;
+		float: none !important;
+	}
+
+	.form_field_dropable {
+		border: 1px dashed #a7c87f;
+		border-left: 1px dashed #a7c87f;
+		border-radius: 4px;
+	}
+
+	.dynamic-platform-logo {
+		margin-bottom: 30px;
+	}
+
+	.dynamic-platform-logo span {
+		font-size: 16px;
+		margin: 0 0 20px 20px;
+	}
+
+	.select-option-account {
+		text-align: left;
+	}
+
+	/* .select-option-account span{
+	display:none;
+	} */
+	span.label-select label {
+		margin: 13px 20px 20px 0;
+	}
+
+	.form-description-text {
+		padding: 0 !important;
+	}
+
+	span.label-select label {
+		display: block;
+		width: 100%;
+	}
+
+	.global-two-form {
+		width: 100%;
+	}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+	.wrap-draggable-form {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.table-form-left,
+	.table-form-right {
+		width: 100%;
+	}
+
+	select#ProviderForms,
+	select#PlatformList,
+	select#form_default,
+	select#ActionTaskList {
+		width: 80% !important;
+
+	}
+
+	.sperse_reverse_draggable {
+		width: 100%;
+	}
+
+	.form_placeholder_wrap {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
+	li.form_fields_name span,
+	li.form_fields_db_name span {
+		border-radius: 4px !important;
+		/*   width:220px!important; */
+	}
+
+	.form-fields-table td:first-child {
+		width: 170px !important;
+		margin-bottom: 10px;
+	}
+
+	.integration-name h3 {
+		width: 100%;
+		float: none !important;
+
+	}
+
+	input.integration-text {
+		width: 100%;
+		float: none !important;
+	}
+
+	.form_field_dropable {
+		border: 1px dashed #a7c87f;
+		border-left: 1px dashed #a7c87f;
+		border-radius: 4px;
+	}
+
+	.dynamic-platform-logo {
+		margin-bottom: 30px;
+	}
+
+	.dynamic-platform-logo span {
+		font-size: 16px;
+		margin: 0 0 20px 20px;
+	}
+
+	.select-option-account {
+		text-align: left;
+	}
+
+	/* .select-option-account span{
+	display:none;
+	} */
+	span.label-select label {
+		margin: 13px 20px 20px 0;
+	}
+
+	.form-description-text {
+		padding: 0 !important;
+	}
+
+	span.label-select label {
+		display: block;
+		width: 100%;
+	}
+
+	.global-two-form {
+		width: 100%;
+	}
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	/* CSS */
+
+	.logo-top {
+		margin: 0 0 0 0;
+	}
+
+	.menu-top-wrap {
+		margin-bottom: 20px;
+		clear: both !important;
+		width: 100% !important;
+		float: left !important;
+		text-align: left !important;
+		display: block;
+	}
+
+	.menu-top-wrap ul li {
+		padding: 2px 20px 2px 0;
+
+	}
+
+	.wrap-draggable-form {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.table-form-left,
+	.table-form-right {
+		width: 100%;
+	}
+
+	select#ProviderForms,
+	select#PlatformList,
+	select#form_default,
+	select#ActionTaskList {
+		width: 80% !important;
+
+	}
+
+	.sperse_reverse_draggable {
+		width: 100%;
+	}
+
+	.form_placeholder_wrap {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
+	.form-wrapper-left {
+		padding: 20px 20px 30px;
+	}
+
+	.form-wrapper-right {
+		padding: 20px 20px 30px;
+	}
+
+	li.form_fields_name span,
+	li.form_fields_db_name span {
+		border-radius: 4px !important;
+		/*   width:170px!important; */
+	}
+
+	.form-fields-table td:first-child {
+		width: 100%;
+		border-radius: 4px;
+		border: 1px solid #a7c87f;
+		margin-bottom: 2px;
+	}
+
+	.form_field_dropable {
+		margin-bottom: 2px;
+	}
+
+	.sperse_inner {
+		margin: 3px;
+	}
+
+	.menu-top-wrap {
+		width: 100%;
+		float: left;
+		display: block;
+	}
+
+	.menu-top-wrap ul li {
+		float: left;
+	}
+
+	.integration-name h3 {
+		width: 100%;
+		float: none !important;
+
+	}
+
+	input.integration-text {
+		width: 100%;
+		float: none !important;
+	}
+
+	.form_field_dropable {
+		border: 1px dashed #a7c87f;
+		border-left: 1px dashed #a7c87f;
+		border-radius: 4px;
+	}
+
+	.dynamic-platform-logo {
+		margin-bottom: 30px;
+	}
+
+	.dynamic-platform-logo span {
+		font-size: 16px;
+		margin: 0 0 20px 20px;
+	}
+
+	.select-option-account {
+		text-align: left;
+	}
+
+	/* .select-option-account span{
+	display:none;
+} */
+	span.label-select label {
+		font-size: 16px;
+		margin: 13px 20px 20px 0;
+		font-weight: normal;
+	}
+
+	.form-description-text {
+		padding: 0 !important;
+	}
+
+	span.label-select label {
+		display: block;
+		width: 100%;
+	}
+
+	.global-two-form {
+		width: 100%;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {}
+
+/* New parts 22.10.21 */
+@media all and (min-width: 992px) {
+	.main-section .container {
+		width: clamp(870px, 90vw, 970px);
+	}
+}
+
+@media all and (min-width: 1200px) {
+
+	.main-section .container {
+		width: 1190px;
+	}
+}
+
+@media all and (max-width: 1400px) {
+	.form-select-account__top {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+@media all and (max-width: 1200px) {
+
+	.header__burger-wrap {
+		display: block !important;
+	}
+
+	.menu-top-wrap ul {
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		left: 36px;
+		top: 0;
+		bottom: 0;
+		width: clamp(240px, 50vw, 500px);
+		background-color: #7531AB;
+		z-index: 199;
+		padding: 150px clamp(20px, 3vw, 35px) 50px clamp(20px, 15vw, 135px);
+		transform: translateX(-150%);
+		transition: transform .5s;
+		gap: 20px;
+		text-align: left;
+		align-items: flex-start;
+	}
+
+	.menu-top-wrap ul.is-show {
+		transform: translateX(0%);
+	}
+
+	.create-account table tr {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.create-account table td {
+		width: 100%;
+	}
+
+	.create-account button {
+		width: 100%;
+		padding: 16px 20px !important;
+	}
+
+	.pull-right a.tablinks {
+		flex: 1 1 auto;
+		text-align: center;
+	}
+
+	#settings-form-wrap {
+		min-width: 670px;
+		padding-left: 0;
+	}
+
+	.sperse-platform {
+		overflow-x: auto;
+	}
+
+	.menu-top-wrap ul li {
+		padding: 0 0 0 30px !important;
+	}
+
+	.menu-top-wrap ul li a {
+		padding: 0 0 0 30px !important;
+	}
+
+	.menu-top-wrap ul li a:after {
+		display: none;
+	}
+
+	.menu-top-wrap ul li a:before {
+		width: 20px;
+		height: 20px;
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: contain;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+@media all and (max-width: 1040px) {
+	.tab {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	.pull-right {
+		width: 100%;
+		flex-shrink: 0;
+		display: flex;
+		overflow-x: auto;
+	}
+}
+
+@media all and (max-width: 992px) {
+
+	.cv-vertical::before,
+	.cv-vertical::after {
+		display: none;
+	}
+
+	.main-section__columns {
+		grid-template: auto / 1fr;
+		gap: 0;
+	}
+	
+	.cv-scroll{
+		justify-content: center;
+	}
+	
+	.main-section__video{
+		padding-bottom: 0;
+	}
+
+	.cv-icon {
+		width: clamp(60px, 18vw, 150px);
+		height: clamp(60px, 18vw, 80px);
+		margin: clamp(5px, 1vw, 10px);
+	}
+}
+
+@media all and (max-width: 968px) {
+	.row-license .form-container {
+		grid-template: auto auto / 1fr;
+	}
+
+	.menu-top-wrap ul {
+		padding-left: 21px;
+	}
+
+	.integration-name,
+	.integration-name input.integration-text {
+		width: 100% !important;
+	}
+}
+
+@media all and (max-width: 786px) {
+	.tablenav.top {
+		margin: 0;
+	}
+
+	.form-list__wrap {
+		padding-left: 0;
+	}
+
+	.menu-top-wrap ul {
+		left: 0;
+	}
+
+	.table-forms-wrap,
+	.forms-setting-wrapper,
+	.integration-name {
+		grid-template: auto 1fr / 1fr;
+	}
+
+	.integration-name-wrap {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	#awp-new-integration .form-table td {
+		width: 100% !important;
+		min-height: 75px;
+		padding: clamp(5px, 1vw, 10px)
+	}
+
+	.tablenav-pages {
+		justify-content: space-between;
+		width: 100%;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+
+	.no-platformheader,
+	.settings-form-wrap form {
+		padding-left: 0;
+	}
+
+	form.container {
+		padding-right: 0;
+	}
+
+	.log-search,
+	.log-search__wrap {
+		width: 100% !important;
+	}
+	
+	.main-log .search-box, .main-log .search-box #search_id-search-input{
+	width: 100%
+	}
+}
+
+@media all and (max-width: 425px) {
+	.form-description-text {
+		grid-template: 1fr 1fr / 1fr;
+	}
+
+	.tabs-panel__left-icon {
+		display: none !important;
+	}
+
+	.main-section .container {
+		padding: 5px;
+	}
+}

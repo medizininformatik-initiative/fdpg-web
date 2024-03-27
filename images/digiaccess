@@ -1,0 +1,50 @@
+(function() {
+    var url = "https://api.digiaccess.org/subscriptions/active";
+    var xhr = new XMLHttpRequest();
+
+    var lang = localStorage.getItem('language');
+    if(lang===null || lang===undefined || lang==='') {
+        var pageLanguage =  document.documentElement.lang;
+        if(pageLanguage) {
+          if(pageLanguage.length > 2) {
+            pageLanguage = pageLanguage.split('-')[0];
+          } 
+          lang =  pageLanguage 
+        } else {
+          lang = 'de';
+        }
+    }
+    
+    xhr.onload = function () {
+        if (xhr.status >= 200) {
+            var res = JSON.parse(xhr.response);
+            if (res.isActive) {
+                var element = document.createElement("script");
+                var scriptPath = "https://download.digiaccess.org/digiaccess/tool?lang="+ lang;
+                var settings = JSON.stringify(res.settings);
+                var imageCaptioningConfig = JSON.stringify(res.imageCaptioningConfig);
+
+                // Assign version to retreive
+                if (res.version && res.version !== 'latest') {
+                    scriptPath += '&version=' + res.version;
+                }
+
+                var script = document.getElementById('dacs');
+
+                if(script) {
+                    script.removeAttribute('id');
+                }
+
+                element.setAttribute("id", "dacs");
+                element.setAttribute("src", scriptPath);
+                element.setAttribute("da-settings", settings);
+                element.setAttribute("da-image-captioning-config", imageCaptioningConfig);
+                document.body.appendChild(element);
+            }
+        } else {
+            console.log('The request failed!');
+        }
+    };
+    xhr.open('GET', url);
+    xhr.send();
+})();

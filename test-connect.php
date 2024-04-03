@@ -3,7 +3,12 @@ $host = getenv('DB_HOST');
 $user = getenv('DB_USERNAME');
 $password = getenv('DB_PASSWORD');
 $dbname = getenv('DB_DATABASE');
-echo $dbname;
+echo "1:". $dbname;
+$dbname = $_ENV['DB_DATABASE'];
+echo "2:". $dbname;
+$dbname = $_SERVER['DB_DATABASE'];
+echo "3:". $dbname;
+
 exit;
 $conn = new mysqli($host, $user, $password, $dbname);
 

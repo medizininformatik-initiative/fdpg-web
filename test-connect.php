@@ -3,7 +3,8 @@ $host = getenv('DB_HOST');
 $user = getenv('DB_USERNAME');
 $password = getenv('DB_PASSWORD');
 $dbname = getenv('DB_DATABASE');
-
+echo $dbname;
+exit;
 $conn = new mysqli($host, $user, $password, $dbname);
 
 if ($conn->connect_error) {

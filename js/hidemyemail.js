@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',function(){var secureEmails=document.querySelectorAll('.secure-email');secureEmails.forEach(function(elem){var user=elem.dataset.user;var domain=elem.dataset.domain;var tld=elem.dataset.tld;var emailAddress=user+'@'+domain+'.'+tld;elem.innerHTML='<a href="mailto:'+emailAddress+'">'+emailAddress+'</a>';});});
